@@ -2,7 +2,7 @@
 
 
 ## Notes
-* census.gov/developers
-* data.census.gov
-* census.gov/data/developers/data-sets.html
+* https://census.gov/developers
+* https://data.census.gov
+* https://census.gov/data/developers/data-sets.html
 
