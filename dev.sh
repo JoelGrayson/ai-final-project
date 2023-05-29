@@ -1,4 +1,5 @@
 #!/bin/bash
 
-cd preprocessing
+clear
+cd preprocessing || exit
 ipython3 -i ./main.py
