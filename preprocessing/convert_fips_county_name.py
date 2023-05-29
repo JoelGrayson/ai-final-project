@@ -6,9 +6,12 @@ df=pd.read_csv('./src/fips/dist/county-names-to-fips.csv', dtype={
 })
 
 def county_name_to_fips(name): #exported
-    return df[df.name==name].fips[0]
+    matched=df[df.name==name] #should be length 0 or 1
+    if matched.shape[0]==0: #no row matches
+        return None #null which will be removed later
+    return matched.iloc[0].fips
 
 
 def fips_to_county_name(fips):
-    return df[df.fips==fips].name[0]
+    return df[df.fips==fips].iloc[0].name
 
