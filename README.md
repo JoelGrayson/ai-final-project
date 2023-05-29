@@ -1,5 +1,8 @@
 # About
-[Proposal](https://docs.google.com/document/d/1E4FkeQ8UsCsFyLSj4cYP6SSVMuc98ruH8EV7Radr36I/edit)
+This project aims to create a probabilistic AI model that can predict whether or not a county will vote Democratic or Republican based on its census data. This program will spit out a map of the United States colored based on its predictions for how the counties will vote to be compared with the actual election results' map.
+
+Elections inspected: 2008 and 2020
+Corresponding census data: 2010 and 2020
 
 
 # Data
@@ -13,7 +16,6 @@ https://data.census.gov/table?t=Business+and+Economy:Business+and+Owner+Characte
 
 ## Voting
 * I Used
-    * 2016 - https://www.kaggle.com/datasets/benhamner/2016-us-election
     * 2020 - https://www.kaggle.com/datasets/unanimad/us-election-2020
     * 2008 - 
 * Others
@@ -26,7 +28,7 @@ https://data.census.gov/table?t=Business+and+Economy:Business+and+Owner+Characte
 # Notes
 * How the election works - each county has multiple precincts which correspond to a voting poll station. The counties then report to the state.
 * Choropleth map - shows the intensity of each region in a map through color intensity
-    * https://plotly.com/python/choropleth-maps/
+    * [Plotly Chloropleth Documentation](https://plotly.com/python/choropleth-maps/)
 * Federal Information Processing Standards (FIPS) codes are standardized five-digit numeric codes identifying counties
 
 
