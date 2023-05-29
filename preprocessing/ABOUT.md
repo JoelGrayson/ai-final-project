@@ -8,3 +8,8 @@ https://data.census.gov/table?t=Business+and+Economy:Business+and+Owner+Characte
 * Business and Economy
 * Business and Owner Characteristics
 
+
+# Voting Data
+* 2016 - https://www.kaggle.com/datasets/benhamner/2016-us-election
+* 2020 - https://www.kaggle.com/datasets/unanimad/us-election-2020
+
