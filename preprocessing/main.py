@@ -1,6 +1,5 @@
 import pandas as pd
-from convert_fips_county_name import county_name_to_fips, fips_to_county_name
-import numpy as np
+from county_name2fips import county_name2fips
 
 # pd.set_option('display.max_columns', 50)
 # pd.set_option('display.max_rows', 50)
@@ -34,7 +33,7 @@ votes=pd.read_csv('./src/2020/votes/president_county_candidate.csv', dtype=objec
 
 
 # Convert to fips
-votes.insert(0, 'fips', (votes.county+', '+votes.state).map(county_name_to_fips), True)
+votes.insert(0, 'fips', (votes.county+', '+votes.state).map(county_name2fips), True)
 votes.dropna(axis=0, inplace=True, how='any')
 votes.won=votes.won.astype(bool) # 'True' -> True
 votes.fips=votes.fips.astype(int) # '1000' -> 1000
