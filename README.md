@@ -2,8 +2,10 @@
 This project aims to create a probabilistic AI model that can predict whether or not a county will vote Democratic or Republican based on its census data. This program will spit out a map of the United States colored based on its predictions for how the counties will vote to be compared with the actual election results' map.
 
 Elections inspected: 2008 and 2020
-Corresponding census data: 2010 and 2020
+Corresponding census data: 2010 and 2020 (ACS)
 
+[Proposal](https://docs.google.com/document/d/1E4FkeQ8UsCsFyLSj4cYP6SSVMuc98ruH8EV7Radr36I/edit?usp=sharing)
+[Journaling](https://docs.google.com/document/d/1ifoNFNRCW7-xLNjSwCLQEWpmMqnfMyJgVoNBKwyWsWg/edit)
 
 # Data
 ## American Community Survey (ACS)
