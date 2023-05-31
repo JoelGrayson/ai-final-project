@@ -1,6 +1,18 @@
 import pandas as pd
 from sklearn.linear_model import LinearRegression
 from sklearn.metrics import mean_squared_error, accuracy_score
+from numpy import exp #allows applying exp to a vector
+
+def sigmoid(x): #from stackoverflow.com/questions/3985619/how-to-calculate-a-logistic-sigmoid-function-in-python
+  return 1/(1+exp(-x))
+
+"""
+Models:
+* LinearRegression
+* Decision trees
+* Neural Networks
+* Support Vector Regressor
+"""
 
 ### <CONFIG>
 validation_size=.10 #used to find C
@@ -8,7 +20,9 @@ train_size=.60
 ### </>
 
 df=pd.read_csv('../preprocessing/dist/2020-acs-and-votes.csv')\
-    .drop(columns=['fips'])
+    .drop(columns=['fips'])\
+    .sample(frac=1) #shuffle
+
 
 # Manual split
 num_rows=df.shape[0]
@@ -31,6 +45,9 @@ X_test,   y_test=get_xy(test_data)
 
 model=LinearRegression() #classifier model
 model.fit(X_train, y_train)
-y_pred=model.predict(X_test)
+# Probabilistic
+y_pred=sigmoid(model.predict(X_test))
+
+# logistic function
 print(mean_squared_error(y_test, y_pred))
 
