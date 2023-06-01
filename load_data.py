@@ -5,38 +5,39 @@ validation_size=.10 #used to find C
 train_size=.60
 ### </>
 
-def load_data(): #returns [X_val, y_val, X_train, y_train, X_test, y_test]
+def load_raw_data(): #no splits
     df=pd.read_csv('./preprocessing/dist/2020-acs-and-votes.csv')\
-        .drop(columns=['fips'])\
         .sample(frac=1) #shuffle
+    X=df.drop(columns=['party', 'fips'])
+    y=df.party
+    fips=df.fips.astype('int32')
+    return X, y, fips
 
+def load_data(): #splits into categories
+    X, y, fips=load_raw_data()
 
     # Manual split
-    num_rows=df.shape[0]
+    num_rows=X.shape[0]
     validation_index=round(num_rows*train_size)
     train_index=validation_index+round(num_rows*validation_size)
 
-    val_data=df[:validation_index]
-    train_data=df[validation_index:train_index]
-    test_data=df[train_index:]
+    return {
+        'X_val': X[:validation_index],
+        'y_val': y[:validation_index],
+        'fips_val': fips[:validation_index],
 
-    def get_xy(rows):
-        X=rows.drop(columns=['party'])
-        y=rows.party
-        return X, y
+        'X_train': X[validation_index:train_index],
+        'y_train': y[validation_index:train_index],
+        'fips_train': fips[validation_index:train_index],
 
-
-    # Export ↓
-    X_val,     y_val=get_xy(val_data)
-    X_train, y_train=get_xy(train_data)
-    X_test,   y_test=get_xy(test_data)
-
-    return [X_val, y_val, X_train, y_train, X_test, y_test]
+        'X_test': X[train_index:],
+        'y_test': y[train_index:],
+        'fips_test': fips[train_index:]
+    }
 
 
 def continuous2binary(data): #round y_* data
-    data[1]=data[1].round()
-    data[3]=data[3].round()
-    data[5]=data[5].round()
+    for label in ['y_val', 'y_train', 'y_test']:
+        data[label]=data[label].round()
     return data
 

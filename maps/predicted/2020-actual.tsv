@@ -1,0 +1,59 @@
+county_name	fips	party
+Alameda County, California	6001.0	1.0
+Alpine County, California	6003.0	1.0
+Amador County, California	6005.0	0.0
+Butte County, California	6007.0	1.0
+Calaveras County, California	6009.0	0.0
+Colusa County, California	6011.0	0.0
+Contra Costa County, California	6013.0	1.0
+Del Norte County, California	6015.0	0.0
+El Dorado County, California	6017.0	0.0
+Fresno County, California	6019.0	1.0
+Glenn County, California	6021.0	0.0
+Humboldt County, California	6023.0	1.0
+Imperial County, California	6025.0	1.0
+Inyo County, California	6027.0	1.0
+Kern County, California	6029.0	0.0
+Kings County, California	6031.0	0.0
+Lake County, California	6033.0	1.0
+Lassen County, California	6035.0	0.0
+Los Angeles County, California	6037.0	1.0
+Madera County, California	6039.0	0.0
+Marin County, California	6041.0	1.0
+Mariposa County, California	6043.0	0.0
+Mendocino County, California	6045.0	1.0
+Merced County, California	6047.0	1.0
+Modoc County, California	6049.0	0.0
+Mono County, California	6051.0	1.0
+Monterey County, California	6053.0	1.0
+Napa County, California	6055.0	1.0
+Nevada County, California	6057.0	1.0
+Orange County, California	6059.0	1.0
+Placer County, California	6061.0	0.0
+Plumas County, California	6063.0	0.0
+Riverside County, California	6065.0	1.0
+Sacramento County, California	6067.0	1.0
+San Benito County, California	6069.0	1.0
+San Bernardino County, California	6071.0	1.0
+San Diego County, California	6073.0	1.0
+San Francisco County, California	6075.0	1.0
+San Joaquin County, California	6077.0	1.0
+San Luis Obispo County, California	6079.0	1.0
+San Mateo County, California	6081.0	1.0
+Santa Barbara County, California	6083.0	1.0
+Santa Clara County, California	6085.0	1.0
+Santa Cruz County, California	6087.0	1.0
+Shasta County, California	6089.0	0.0
+Sierra County, California	6091.0	0.0
+Siskiyou County, California	6093.0	0.0
+Solano County, California	6095.0	1.0
+Sonoma County, California	6097.0	1.0
+Stanislaus County, California	6099.0	1.0
+Sutter County, California	6101.0	0.0
+Tehama County, California	6103.0	0.0
+Trinity County, California	6105.0	0.0
+Tulare County, California	6107.0	0.0
+Tuolumne County, California	6109.0	0.0
+Ventura County, California	6111.0	1.0
+Yolo County, California	6113.0	1.0
+Yuba County, California	6115.0	0.0

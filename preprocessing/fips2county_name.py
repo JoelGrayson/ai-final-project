@@ -1,6 +1,6 @@
 import pickle
 
-f=open('./src/fips/dist/fips2county_name.pickle', 'rb')
+f=open('./preprocessing/src/fips/dist/fips2county_name.pickle', 'rb')
 dict=pickle.load(f)
 f.close()
 
