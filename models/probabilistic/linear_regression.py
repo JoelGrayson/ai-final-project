@@ -1,4 +1,3 @@
-
 from sklearn.linear_model import LinearRegression
 from numpy import exp #allows applying exp to a vector
 from sklearn.metrics import mean_squared_error
@@ -13,7 +12,7 @@ def classify(data):
     model=LinearRegression() #classifier model
     model.fit(X_train, y_train)
     # Probabilistic
-    y_pred=sigmoid(model.predict(X_test))
+    y_pred=sigmoid(model.predict(X_test)) #keep it between 0-1
     return y_pred
 
 

@@ -6,12 +6,16 @@ echo Preprocessing FIPS
     python3 -B main.py
 )
 
+
 echo Preprocessing data
 (
-    cd preprocessing
+    cd preprocessing || exit 65
     python3 -B main.py
 )
 
-# echo Running AI model
 
-# echo Making map
+echo Running AI model
+python3 -B main.py
+
+
+echo Making map

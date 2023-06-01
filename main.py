@@ -1,6 +1,6 @@
 from load_data import load_data
-import models.linear_probabilistic_classification as prob
+from models.probabilistic import linear_regression
 
 data=load_data()
-y_pred=prob.classify(data)
-prob.evaluate(data[5], y_pred)
+y_pred=linear_regression.classify(data)
+linear_regression.evaluate(data[5], y_pred)
