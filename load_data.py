@@ -33,3 +33,10 @@ def load_data(): #returns [X_val, y_val, X_train, y_train, X_test, y_test]
 
     return [X_val, y_val, X_train, y_train, X_test, y_test]
 
+
+def continuous2binary(data): #round y_* data
+    data[1]=data[1].round()
+    data[3]=data[3].round()
+    data[5]=data[5].round()
+    return data
+
