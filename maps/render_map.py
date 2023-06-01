@@ -16,16 +16,13 @@ response.close()
 # Exported
 def merge_fips(fips, party):
     return pd.concat([fips, party], axis=1)\
-        .astype({ 'fips': 'int', 'party': 'float' })
+        .astype({ 'fips': 'str', 'party': 'float' })\
+        .sort_values(by='fips')
 
 def render_map(
     filename,
     fips_codes, #dataframe of fips codes and their corresponding party [0-1]
 ):
-    fips_codes.sort_values(by='fips', inplace=True, ascending=True)
-    # fips_codes=fips_codes[(fips_codes.fips>56000) & (fips_codes.fips<57000)] #only Wyoming
-    fips_codes=fips_codes[(fips_codes.fips>6000) & (fips_codes.fips<7000)] #only California
-
     # Plot Data
     fig=px.choropleth(
         fips_codes, geojson=counties, locations='fips',
@@ -40,7 +37,7 @@ def render_map(
 
     # Write image text
     text='county_name\tfips\tparty\n'
-    for index, row in fips_codes.iterrows():
+    for index, row in fips_codes.sort_values(by='fips').iterrows():
         text+=f'{fips2county_name(row.fips)}\t{row.fips}\t{row.party}\n'
 
     with open(filepath+'.tsv', 'w') as f:

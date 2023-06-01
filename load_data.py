@@ -6,11 +6,11 @@ train_size=.60
 ### </>
 
 def load_raw_data(): #no splits
-    df=pd.read_csv('./preprocessing/dist/2020-acs-and-votes.csv')\
+    df=pd.read_csv('./preprocessing/dist/2020-acs-and-votes.csv', dtype={ 'fips': 'str', 'party': 'float' })\
         .sample(frac=1) #shuffle
     X=df.drop(columns=['party', 'fips'])
     y=df.party
-    fips=df.fips.astype('int32')
+    fips=df.fips.astype('str')
     return X, y, fips
 
 def load_data(): #splits into categories

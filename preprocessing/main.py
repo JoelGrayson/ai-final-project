@@ -11,14 +11,17 @@ acs=pd.read_csv(f'./src/2020/ACS/data.csv', dtype=object, na_values=['(X)', 'N',
 
 acs.drop([0], inplace=True) #drop first row, which is column metadata
 
-acs.insert(0, 'fips', acs.GEO_ID.map(lambda x : int(x[9:]))) #identifier
+acs.insert(0, 'fips', acs.GEO_ID.map(lambda x : x[9:])) #identifier
 
 cols_to_drop=filter(lambda x: (x[-1]!='E' or x=='NAME') and x!='fips', acs.columns) #keep only estimates, not margin of errors or notes. Keep fips
 acs.drop(columns=cols_to_drop, inplace=True)
 
 # remove all columns that have an missing data symbols specified in /preprocessing/src/2020/ACS/table-notes.html
 acs.dropna(axis=1, inplace=True)
-acs=acs.astype(float) #all numeric data
+for column in acs.columns:
+    if column!='fips': #all numeric data except fips, which is a string
+        acs[column]=acs[column].astype(float)
+
 
 # Votes
 """
@@ -36,7 +39,7 @@ votes=pd.read_csv('./src/2020/votes/president_county_candidate.csv', dtype=objec
 votes.insert(0, 'fips', (votes.county+', '+votes.state).map(county_name2fips), True)
 votes.dropna(axis=0, inplace=True, how='any')
 votes.won=votes.won.astype(bool) # 'True' -> True
-votes.fips=votes.fips.astype(int) # '1000' -> 1000
+votes.fips=votes.fips.astype(str) # '01000'
 votes.total_votes=votes.total_votes.astype(int)
 votes.sort_values('fips', inplace=True) #make sure the fips are grouped together
 
@@ -67,7 +70,7 @@ for index, row in votes.iterrows():
         curr_rep_votes=row.total_votes
 
 
-fips_and_party=pd.DataFrame(fips_and_party_lst, columns=['fips', 'party']).astype({ 'fips': int, 'party': float })
+fips_and_party=pd.DataFrame(fips_and_party_lst, columns=['fips', 'party']).astype({ 'fips': str, 'party': float })
 
 
 # Merge

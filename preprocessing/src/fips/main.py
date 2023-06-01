@@ -3,7 +3,7 @@ import pandas as pd
 from state_abbreviations import state_abbreviations
 
 df=pd.read_csv('./src/fips-codes-and-county-names.csv', dtype={
-    'fips': int,
+    'fips': str,
     'name': str,
     'state': str
 })
