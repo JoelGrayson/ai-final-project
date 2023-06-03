@@ -2,19 +2,13 @@
 import pandas as pd
 from helpers.county_name2fips import county_name2fips
 from helpers.merge_votes_and_acs import merge_acs_and_votes
-from preprocessing.helpers.preprocess_acs import preprocess_acs
+from helpers.preprocess_acs import preprocess_acs
 
 
 def data_2020():
     acs=preprocess_acs('./src/2020/ACS/data.csv')
 
     # Votes
-    """
-    Ideal format
-    * id
-    * party 
-    * % turnout (0-1)
-    """
     votes=pd.read_csv('./src/2020/votes/president_county_candidate.csv', dtype=object)
 
 
@@ -40,23 +34,36 @@ def data_2020():
     curr_fips=votes.iloc[0].fips #first fips
     curr_dem_votes=None
     curr_rep_votes=None
+    curr_total_votes=0
     for index, row in votes.iterrows():
         if row.fips!=curr_fips: #moving to next row
             percentage_dems=curr_dem_votes/(curr_rep_votes+curr_dem_votes) # type: ignore
                 #excludes third-party candidates
-            fips_and_party_lst.append([curr_fips, percentage_dems])
+            fips_and_party_lst.append([curr_fips, percentage_dems, curr_total_votes])
             curr_fips=row.fips #update curr_fips to next fips
+            curr_total_votes=0
         
+        curr_total_votes+=row.total_votes
         if row.party=='DEM':
             curr_dem_votes=row.total_votes
         if row.party=='REP':
             curr_rep_votes=row.total_votes
 
 
-    fips_and_party=pd.DataFrame(fips_and_party_lst, columns=['fips', 'party']).astype({ 'fips': str, 'party': float })
+    fips_and_party=pd.DataFrame(fips_and_party_lst, columns=['fips', 'party', 'total_votes']).astype({ 'fips': str, 'party': float, 'total_votes': int })
 
 
     # Merge
-    merge_acs_and_votes(acs, fips_and_party)\
-        .to_csv(f'./dist/2020-acs-and-votes.csv', index=False)
+    merged=merge_acs_and_votes(acs, fips_and_party)
+
+    # Make fips and party at the front
+    old_index=list(merged.columns)
+    old_index.remove('fips')
+    old_index.remove('party')
+    old_index.remove('total_votes')
+    new_index=['fips', 'party', 'total_votes', *old_index]
+    merged.reindex(columns=new_index)
+
+    # Export
+    merged.to_csv('./dist/2020-acs-and-votes.csv', index=False, columns=new_index)
 
