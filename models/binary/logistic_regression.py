@@ -1,6 +1,6 @@
 from sklearn.linear_model import LogisticRegression
 
-def classify(data, C=1):
+def classify(data, C=1.0):
     model=LogisticRegression(C=C, max_iter=3000) #classifier model
     
     model.fit(data['X_train'], data['y_train'])
