@@ -40,6 +40,9 @@ https://data.census.gov/table?t=Business+and+Economy:Business+and+Owner+Characte
 * Choropleth map - shows the intensity of each region in a map through color intensity
     * [Plotly Chloropleth Documentation](https://plotly.com/python/choropleth-maps/)
 * Federal Information Processing Standards (FIPS) codes are standardized five-digit numeric codes identifying counties
+* Election Districts (EDs in Alaska)
+    * Boroughs are Alaska's form of counties (parishes for Louisiana)
+* Precincts
 
 
 # Requirements

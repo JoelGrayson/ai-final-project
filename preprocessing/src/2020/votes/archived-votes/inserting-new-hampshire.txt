@@ -1,0 +1,25 @@
+state,county,candidate,party,total_votes,won
+Delaware,Kent County,Joe Biden,DEM,44552,True
+Delaware,Kent County,Donald Trump,REP,41009,False
+
+
+New Hampshire,Belknap County,Joe Biden,DEM,
+New Hampshire,Belknap County,Donald Trump,REP,
+New Hampshire,Carroll County,Joe Biden,DEM,
+New Hampshire,Carroll County,Donald Trump,REP,
+New Hampshire,Cheshire County,Joe Biden,DEM,
+New Hampshire,Cheshire County,Donald Trump,REP,
+New Hampshire,Coos County,Joe Biden,DEM,
+New Hampshire,Coos County,Donald Trump,REP,
+New Hampshire,Grafton County,Joe Biden,DEM,
+New Hampshire,Grafton County,Donald Trump,REP,
+New Hampshire,Hillsborough County,Joe Biden,DEM,
+New Hampshire,Hillsborough County,Donald Tr,REP,ump
+New Hampshire,Merrimack County,Joe Biden,DEM,
+New Hampshire,Merrimack County,Donald Trump,REP,
+New Hampshire,Rockingham County,Joe Biden,DEM,
+New Hampshire,Rockingham County,Donald Trum,REP,p
+New Hampshire,Strafford County,Joe Biden,DEM,
+New Hampshire,Strafford County,Donald Trump,REP,
+New Hampshire,Sullivan County,Joe Biden,DEM,
+New Hampshire,Sullivan County,Donald Trump,REP,
