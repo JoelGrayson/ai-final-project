@@ -43,3 +43,4 @@ def render_map(
     with open(filepath+'.tsv', 'w') as f:
         f.write(text)
 
+    return fig

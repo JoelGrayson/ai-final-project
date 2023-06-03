@@ -5541,6 +5541,14 @@ Louisiana,Winn Parish,President Boddie,IND,2,False
 Louisiana,Winn Parish,Bill Hammons,UTY,2,False
 Louisiana,Winn Parish,Tom Hoefling,LLC,0,False
 Louisiana,Winn Parish,Alyson Kennedy,SWP,0,False
+
+Maine,Kennebec County,Joe Biden,DEM,34902,False
+Maine,Kennebec County,Donald Trump,REP,34721,True
+Maine,Androscoggin County,Joe Biden,DEM,27617,False
+Maine,Androscoggin County,Donald Trump,REP,29268,True
+Maine,Knox County,Joe Biden,DEM,15110,True
+Maine,Knox County,Donald Trump,REP,9982,False
+
 Maine,Aroostook County,Donald Trump,REP,150,True
 Maine,Aroostook County,Joe Biden,DEM,141,False
 Maine,Aroostook County,Howie Hawkins,GRN,1,False
@@ -8673,11 +8681,23 @@ Maryland,Baltimore city,Jo Jorgensen,LIB,1761,False
 Maryland,Baltimore city,Howie Hawkins,GRN,1338,False
 Maryland,Baltimore city, Write-ins,WRI,1272,False
 Maryland,Baltimore city,Jerome Segal,BAR,456,False
-Massachusetts,Barnstable,Joe Biden,DEM,16491,True
-Massachusetts,Barnstable,Donald Trump,REP,11436,False
-Massachusetts,Barnstable,Jo Jorgensen,LIB,365,False
-Massachusetts,Barnstable,Howie Hawkins,GRN,110,False
-Massachusetts,Barnstable, Write-ins,WRI,25,False
+
+Massachusetts,Hampshire County,Joe Biden,DEM,63362,True
+Massachusetts,Hampshire County,Donald Trump,REP,22281,False
+Massachusetts,Middlesex County,Joe Biden,DEM,617196,True
+Massachusetts,Middlesex County,Donald Trump,REP,226956,False
+Massachusetts,Dukes County,Joe Biden,DEM,9914,True
+Massachusetts,Dukes County,Donald Trump,REP,2631,False
+Massachusetts,Bristol County,Joe Biden,DEM,153377,True
+Massachusetts,Bristol County,Donald Trump,REP,119872,False
+Massachusetts,Berkshire County,Joe Biden,DEM,51705,True
+Massachusetts,Berkshire County,Donald Trump,REP,18064,False
+
+Massachusetts,Barnstable County,Joe Biden,DEM,16491,True
+Massachusetts,Barnstable County,Donald Trump,REP,11436,False
+Massachusetts,Barnstable County,Jo Jorgensen,LIB,365,False
+Massachusetts,Barnstable County,Howie Hawkins,GRN,110,False
+Massachusetts,Barnstable County, Write-ins,WRI,25,False
 Massachusetts,Bourne,Joe Biden,DEM,6527,True
 Massachusetts,Bourne,Donald Trump,REP,5331,False
 Massachusetts,Bourne,Jo Jorgensen,LIB,148,False
@@ -9068,11 +9088,11 @@ Massachusetts,Danvers,Donald Trump,REP,6725,False
 Massachusetts,Danvers,Jo Jorgensen,LIB,211,False
 Massachusetts,Danvers,Howie Hawkins,GRN,91,False
 Massachusetts,Danvers, Write-ins,WRI,47,False
-Massachusetts,Essex,Joe Biden,DEM,1650,True
-Massachusetts,Essex,Donald Trump,REP,796,False
-Massachusetts,Essex,Jo Jorgensen,LIB,45,False
-Massachusetts,Essex, Write-ins,WRI,13,False
-Massachusetts,Essex,Howie Hawkins,GRN,8,False
+Massachusetts,Essex County,Joe Biden,DEM,1650,True
+Massachusetts,Essex County,Donald Trump,REP,796,False
+Massachusetts,Essex County,Jo Jorgensen,LIB,45,False
+Massachusetts,Essex County, Write-ins,WRI,13,False
+Massachusetts,Essex County,Howie Hawkins,GRN,8,False
 Massachusetts,Georgetown,Joe Biden,DEM,3051,True
 Massachusetts,Georgetown,Donald Trump,REP,2388,False
 Massachusetts,Georgetown,Jo Jorgensen,LIB,84,False
@@ -9378,11 +9398,11 @@ Massachusetts,Granville,Joe Biden,DEM,402,False
 Massachusetts,Granville,Jo Jorgensen,LIB,20,False
 Massachusetts,Granville,Howie Hawkins,GRN,3,False
 Massachusetts,Granville, Write-ins,WRI,0,False
-Massachusetts,Hampden,Donald Trump,REP,1713,True
-Massachusetts,Hampden,Joe Biden,DEM,1539,False
-Massachusetts,Hampden,Jo Jorgensen,LIB,58,False
-Massachusetts,Hampden,Howie Hawkins,GRN,16,False
-Massachusetts,Hampden, Write-ins,WRI,13,False
+Massachusetts,Hampden County,Donald Trump,REP,1713,True
+Massachusetts,Hampden County,Joe Biden,DEM,1539,False
+Massachusetts,Hampden County,Jo Jorgensen,LIB,58,False
+Massachusetts,Hampden County,Howie Hawkins,GRN,16,False
+Massachusetts,Hampden County, Write-ins,WRI,13,False
 Massachusetts,Holland,Donald Trump,REP,793,True
 Massachusetts,Holland,Joe Biden,DEM,698,False
 Massachusetts,Holland,Jo Jorgensen,LIB,38,False
@@ -9828,11 +9848,11 @@ Massachusetts,Woburn,Donald Trump,REP,8483,False
 Massachusetts,Woburn,Jo Jorgensen,LIB,255,False
 Massachusetts,Woburn,Howie Hawkins,GRN,89,False
 Massachusetts,Woburn, Write-ins,WRI,61,False
-Massachusetts,Nantucket,Joe Biden,DEM,5241,True
-Massachusetts,Nantucket,Donald Trump,REP,1914,False
-Massachusetts,Nantucket,Jo Jorgensen,LIB,81,False
-Massachusetts,Nantucket,Howie Hawkins,GRN,41,False
-Massachusetts,Nantucket, Write-ins,WRI,29,False
+Massachusetts,Nantucket County,Joe Biden,DEM,5241,True
+Massachusetts,Nantucket County,Donald Trump,REP,1914,False
+Massachusetts,Nantucket County,Jo Jorgensen,LIB,81,False
+Massachusetts,Nantucket County,Howie Hawkins,GRN,41,False
+Massachusetts,Nantucket County, Write-ins,WRI,29,False
 Massachusetts,Avon,Joe Biden,DEM,1601,True
 Massachusetts,Avon,Donald Trump,REP,1030,False
 Massachusetts,Avon,Jo Jorgensen,LIB,36,False
@@ -9878,11 +9898,8 @@ Massachusetts,Foxborough,Donald Trump,REP,4357,False
 Massachusetts,Foxborough,Jo Jorgensen,LIB,163,False
 Massachusetts,Foxborough,Howie Hawkins,GRN,43,False
 Massachusetts,Foxborough, Write-ins,WRI,43,False
-Massachusetts,Franklin,Joe Biden,DEM,12475,True
-Massachusetts,Franklin,Donald Trump,REP,7345,False
-Massachusetts,Franklin,Jo Jorgensen,LIB,338,False
-Massachusetts,Franklin,Howie Hawkins,GRN,101,False
-Massachusetts,Franklin, Write-ins,WRI,87,False
+Massachusetts,Franklin County,Joe Biden,DEM,30030,True
+Massachusetts,Franklin County,Donald Trump,REP,11201,False
 Massachusetts,Holbrook,Joe Biden,DEM,3710,True
 Massachusetts,Holbrook,Donald Trump,REP,2381,False
 Massachusetts,Holbrook,Jo Jorgensen,LIB,71,False
@@ -9913,11 +9930,11 @@ Massachusetts,Needham,Donald Trump,REP,4078,False
 Massachusetts,Needham,Jo Jorgensen,LIB,235,False
 Massachusetts,Needham, Write-ins,WRI,165,False
 Massachusetts,Needham,Howie Hawkins,GRN,62,False
-Massachusetts,Norfolk,Joe Biden,DEM,4100,True
-Massachusetts,Norfolk,Donald Trump,REP,2570,False
-Massachusetts,Norfolk,Jo Jorgensen,LIB,106,False
-Massachusetts,Norfolk, Write-ins,WRI,54,False
-Massachusetts,Norfolk,Howie Hawkins,GRN,23,False
+Massachusetts,Norfolk County,Joe Biden,DEM,4100,True
+Massachusetts,Norfolk County,Donald Trump,REP,2570,False
+Massachusetts,Norfolk County,Jo Jorgensen,LIB,106,False
+Massachusetts,Norfolk County, Write-ins,WRI,54,False
+Massachusetts,Norfolk County,Howie Hawkins,GRN,23,False
 Massachusetts,Norwood,Joe Biden,DEM,11212,True
 Massachusetts,Norwood,Donald Trump,REP,5824,False
 Massachusetts,Norwood,Jo Jorgensen,LIB,228,False
@@ -10068,11 +10085,11 @@ Massachusetts,Pembroke,Donald Trump,REP,5263,False
 Massachusetts,Pembroke,Jo Jorgensen,LIB,167,False
 Massachusetts,Pembroke, Write-ins,WRI,76,False
 Massachusetts,Pembroke,Howie Hawkins,GRN,73,False
-Massachusetts,Plymouth,Joe Biden,DEM,21266,True
-Massachusetts,Plymouth,Donald Trump,REP,15152,False
-Massachusetts,Plymouth,Jo Jorgensen,LIB,560,False
-Massachusetts,Plymouth, Write-ins,WRI,192,False
-Massachusetts,Plymouth,Howie Hawkins,GRN,166,False
+Massachusetts,Plymouth County,Joe Biden,DEM,21266,True
+Massachusetts,Plymouth County,Donald Trump,REP,15152,False
+Massachusetts,Plymouth County,Jo Jorgensen,LIB,560,False
+Massachusetts,Plymouth County, Write-ins,WRI,192,False
+Massachusetts,Plymouth County,Howie Hawkins,GRN,166,False
 Massachusetts,Plympton,Joe Biden,DEM,962,True
 Massachusetts,Plympton,Donald Trump,REP,912,False
 Massachusetts,Plympton,Jo Jorgensen,LIB,31,False
@@ -10423,11 +10440,11 @@ Massachusetts,Winchendon,Joe Biden,DEM,2313,False
 Massachusetts,Winchendon,Jo Jorgensen,LIB,124,False
 Massachusetts,Winchendon,Howie Hawkins,GRN,47,False
 Massachusetts,Winchendon, Write-ins,WRI,7,False
-Massachusetts,Worcester,Joe Biden,DEM,48584,True
-Massachusetts,Worcester,Donald Trump,REP,21169,False
-Massachusetts,Worcester,Jo Jorgensen,LIB,830,False
-Massachusetts,Worcester,Howie Hawkins,GRN,459,False
-Massachusetts,Worcester, Write-ins,WRI,328,False
+Massachusetts,Worcester County,Joe Biden,DEM,48584,True
+Massachusetts,Worcester County,Donald Trump,REP,21169,False
+Massachusetts,Worcester County,Jo Jorgensen,LIB,830,False
+Massachusetts,Worcester County,Howie Hawkins,GRN,459,False
+Massachusetts,Worcester County, Write-ins,WRI,328,False
 Michigan,Alcona County,Donald Trump,REP,4848,True
 Michigan,Alcona County,Joe Biden,DEM,2142,False
 Michigan,Alcona County,Jo Jorgensen,LIB,50,False
@@ -14038,7 +14055,28 @@ Nevada,Carson City,Joe Biden,DEM,12735,False
 Nevada,Carson City,Jo Jorgensen,LIB,432,False
 Nevada,Carson City, None of these candidates,NON,355,False
 Nevada,Carson City,Don Blankenship,CST,104,False
-New Hampshire,Belknap County
+
+New Hampshire,Belknap County,Joe Biden,DEM,16894,False
+New Hampshire,Carroll County,Joe Biden,DEM,16649,True
+New Hampshire,Cheshire County,Joe Biden,DEM,25522,True
+New Hampshire,Coos County,Joe Biden,DEM,7640,False
+New Hampshire,Grafton County,Joe Biden,DEM,33180,True
+New Hampshire,Hillsborough County,Joe Biden,DEM,122344,True
+New Hampshire,Merrimack County,Joe Biden,DEM,48533,True
+New Hampshire,Rockingham County,Joe Biden,DEM,100064,True
+New Hampshire,Strafford County,Joe Biden,DEM,41721,True
+New Hampshire,Sullivan County,Joe Biden,DEM,12390,True
+New Hampshire,Belknap County,Donald Trump,REP,20899,True
+New Hampshire,Carroll County,Donald Trump,REP,16150,False
+New Hampshire,Cheshire County,Donald Trump,REP,17898,False
+New Hampshire,Coos County,Donald Trump,REP,8617,True
+New Hampshire,Grafton County,Donald Trump,REP,19905,False
+New Hampshire,Hillsborough County,Donald Trump,REP,104625,False
+New Hampshire,Merrimack County,Donald Trump,REP,39711,False
+New Hampshire,Rockingham County,Donald Trump,REP,95858,False
+New Hampshire,Strafford County,Donald Trump,REP,30489,False
+New Hampshire,Sullivan County,Donald Trump,REP,11508,False
+
 New Hampshire,Alton,Donald Trump,REP,2420,True
 New Hampshire,Alton,Joe Biden,DEM,1438,False
 New Hampshire,Alton,Jo Jorgensen,LIB,45,False
@@ -17918,6 +17956,18 @@ Pennsylvania,Wyoming County, Write-ins,WRI,0,False
 Pennsylvania,York County,Donald Trump,REP,146733,True
 Pennsylvania,York County,Joe Biden,DEM,88114,False
 Pennsylvania,York County,Jo Jorgensen,LIB,3624,False
+
+Rhode Island,Bristol County,Joe Biden,DEM,18050,True
+Rhode Island,Bristol County,Donald Trump,REP,9745,False
+Rhode Island,Kent County,Joe Biden,DEM,49113,True
+Rhode Island,Kent County,Donald Trump,REP,42001,False
+Rhode Island,Newport County,Joe Biden,DEM,29486,True
+Rhode Island,Newport County,Donald Trump,REP,15722,False
+Rhode Island,Providence County,Joe Biden,DEM,165012,True
+Rhode Island,Providence County,Donald Trump,REP,12551,False
+Rhode Island,Washington County,Joe Biden,DEM,44549,True
+Rhode Island,Washington County,Donald Trump,REP,29818,False
+
 Rhode Island,East Providence,Joe Biden,DEM,14735,True
 Rhode Island,East Providence,Donald Trump,REP,7930,False
 Rhode Island,East Providence,Jo Jorgensen,LIB,204,False
@@ -21941,28 +21991,28 @@ Vermont,Norwich,Brock Pierce,IND,0,False
 Vermont,Norwich,Zachary Scalf,IND,0,False
 Vermont,Norwich,Jerome Segal,BAR,0,False
 Vermont,Norwich,Gary Swing,BFP,0,False
-Vermont,Orange,Donald Trump,REP,324,True
-Vermont,Orange,Joe Biden,DEM,261,False
-Vermont,Orange,Jo Jorgensen,LIB,7,False
-Vermont,Orange, Write-ins,WRI,5,False
-Vermont,Orange,Brooke Paige,GOP,4,False
-Vermont,Orange,Brian Carroll,ASP,2,False
-Vermont,Orange,Phil Collins,PRO,2,False
-Vermont,Orange,Zachary Scalf,IND,2,False
-Vermont,Orange,Don Blankenship,CST,1,False
-Vermont,Orange,Christopher LaFontaine,IND,1,False
-Vermont,Orange,Kanye West,IND,1,False
-Vermont,Orange,Rocky De La Fuente,ALI,0,False
-Vermont,Orange,Richard Duncan,IND,0,False
-Vermont,Orange,Howie Hawkins,GRN,0,False
-Vermont,Orange,Blake Huber,APV,0,False
-Vermont,Orange,Alyson Kennedy,SWP,0,False
-Vermont,Orange,Kyle Kopitke,IAP,0,False
-Vermont,Orange,Gloria La Riva,PSL,0,False
-Vermont,Orange,Keith McCormic,BMP,0,False
-Vermont,Orange,Brock Pierce,IND,0,False
-Vermont,Orange,Jerome Segal,BAR,0,False
-Vermont,Orange,Gary Swing,BFP,0,False
+Vermont,Orange County,Donald Trump,REP,324,True
+Vermont,Orange County,Joe Biden,DEM,261,False
+Vermont,Orange County,Jo Jorgensen,LIB,7,False
+Vermont,Orange County, Write-ins,WRI,5,False
+Vermont,Orange County,Brooke Paige,GOP,4,False
+Vermont,Orange County,Brian Carroll,ASP,2,False
+Vermont,Orange County,Phil Collins,PRO,2,False
+Vermont,Orange County,Zachary Scalf,IND,2,False
+Vermont,Orange County,Don Blankenship,CST,1,False
+Vermont,Orange County,Christopher LaFontaine,IND,1,False
+Vermont,Orange County,Kanye West,IND,1,False
+Vermont,Orange County,Rocky De La Fuente,ALI,0,False
+Vermont,Orange County,Richard Duncan,IND,0,False
+Vermont,Orange County,Howie Hawkins,GRN,0,False
+Vermont,Orange County,Blake Huber,APV,0,False
+Vermont,Orange County,Alyson Kennedy,SWP,0,False
+Vermont,Orange County,Kyle Kopitke,IAP,0,False
+Vermont,Orange County,Gloria La Riva,PSL,0,False
+Vermont,Orange County,Keith McCormic,BMP,0,False
+Vermont,Orange County,Brock Pierce,IND,0,False
+Vermont,Orange County,Jerome Segal,BAR,0,False
+Vermont,Orange County,Gary Swing,BFP,0,False
 Vermont,Orwell,Joe Biden,DEM,367,True
 Vermont,Orwell,Donald Trump,REP,351,False
 Vermont,Orwell,Jo Jorgensen,LIB,7,False
@@ -22381,28 +22431,38 @@ Vermont,Richford,Brock Pierce,IND,0,False
 Vermont,Richford,Zachary Scalf,IND,0,False
 Vermont,Richford,Jerome Segal,BAR,0,False
 Vermont,Richford,Gary Swing,BFP,0,False
-Vermont,Bennington,Joe Biden,DEM,4369,True
-Vermont,Bennington,Donald Trump,REP,2473,False
-Vermont,Bennington,Jo Jorgensen,LIB,63,False
-Vermont,Bennington,Howie Hawkins,GRN,35,False
-Vermont,Bennington, Write-ins,WRI,34,False
-Vermont,Bennington,Kanye West,IND,31,False
-Vermont,Bennington,Christopher LaFontaine,IND,24,False
-Vermont,Bennington,Brooke Paige,GOP,23,False
-Vermont,Bennington,Alyson Kennedy,SWP,8,False
-Vermont,Bennington,Brian Carroll,ASP,6,False
-Vermont,Bennington,Phil Collins,PRO,5,False
-Vermont,Bennington,Keith McCormic,BMP,4,False
-Vermont,Bennington,Gary Swing,BFP,4,False
-Vermont,Bennington,Don Blankenship,CST,3,False
-Vermont,Bennington,Richard Duncan,IND,3,False
-Vermont,Bennington,Blake Huber,APV,3,False
-Vermont,Bennington,Gloria La Riva,PSL,3,False
-Vermont,Bennington,Brock Pierce,IND,2,False
-Vermont,Bennington,Jerome Segal,BAR,2,False
-Vermont,Bennington,Zachary Scalf,IND,1,False
-Vermont,Bennington,Rocky De La Fuente,ALI,0,False
-Vermont,Bennington,Kyle Kopitke,IAP,0,False
+
+Vermont,Caledonia County,Joe Biden,DEM,9011,True
+Vermont,Caledonia County,Donald Trump,REP,6511,False
+Vermont,Essex County,Joe Biden,DEM,1405,False
+Vermont,Essex County,Donald Trump,REP,1773,True
+Vermont,Lamoille County,Joe Biden,DEM,10240,True
+Vermont,Lamoille County,Donald Trump,REP,4163,False
+Vermont,Orleans County,Joe Biden,DEM,7147,True
+Vermont,Orleans County,Donald Trump,REP,6512,False
+
+Vermont,Bennington County,Joe Biden,DEM,4369,True
+Vermont,Bennington County,Donald Trump,REP,2473,False
+Vermont,Bennington County,Jo Jorgensen,LIB,63,False
+Vermont,Bennington County,Howie Hawkins,GRN,35,False
+Vermont,Bennington County, Write-ins,WRI,34,False
+Vermont,Bennington County,Kanye West,IND,31,False
+Vermont,Bennington County,Christopher LaFontaine,IND,24,False
+Vermont,Bennington County,Brooke Paige,GOP,23,False
+Vermont,Bennington County,Alyson Kennedy,SWP,8,False
+Vermont,Bennington County,Brian Carroll,ASP,6,False
+Vermont,Bennington County,Phil Collins,PRO,5,False
+Vermont,Bennington County,Keith McCormic,BMP,4,False
+Vermont,Bennington County,Gary Swing,BFP,4,False
+Vermont,Bennington County,Don Blankenship,CST,3,False
+Vermont,Bennington County,Richard Duncan,IND,3,False
+Vermont,Bennington County,Blake Huber,APV,3,False
+Vermont,Bennington County,Gloria La Riva,PSL,3,False
+Vermont,Bennington County,Brock Pierce,IND,2,False
+Vermont,Bennington County,Jerome Segal,BAR,2,False
+Vermont,Bennington County,Zachary Scalf,IND,1,False
+Vermont,Bennington County,Rocky De La Fuente,ALI,0,False
+Vermont,Bennington County,Kyle Kopitke,IAP,0,False
 Vermont,Richmond,Joe Biden,DEM,2287,True
 Vermont,Richmond,Donald Trump,REP,572,False
 Vermont,Richmond,Jo Jorgensen,LIB,31,False
@@ -22557,28 +22617,28 @@ Vermont,Rupert,Keith McCormic,BMP,0,False
 Vermont,Rupert,Brock Pierce,IND,0,False
 Vermont,Rupert,Jerome Segal,BAR,0,False
 Vermont,Rupert,Gary Swing,BFP,0,False
-Vermont,Rutland,Joe Biden,DEM,4679,True
-Vermont,Rutland,Donald Trump,REP,3026,False
-Vermont,Rutland,Jo Jorgensen,LIB,100,False
-Vermont,Rutland, Write-ins,WRI,64,False
-Vermont,Rutland,Christopher LaFontaine,IND,31,False
-Vermont,Rutland,Kanye West,IND,28,False
-Vermont,Rutland,Brooke Paige,GOP,21,False
-Vermont,Rutland,Howie Hawkins,GRN,18,False
-Vermont,Rutland,Gloria La Riva,PSL,7,False
-Vermont,Rutland,Alyson Kennedy,SWP,6,False
-Vermont,Rutland,Richard Duncan,IND,5,False
-Vermont,Rutland,Brian Carroll,ASP,4,False
-Vermont,Rutland,Phil Collins,PRO,3,False
-Vermont,Rutland,Gary Swing,BFP,2,False
-Vermont,Rutland,Don Blankenship,CST,1,False
-Vermont,Rutland,Rocky De La Fuente,ALI,1,False
-Vermont,Rutland,Blake Huber,APV,1,False
-Vermont,Rutland,Kyle Kopitke,IAP,1,False
-Vermont,Rutland,Brock Pierce,IND,1,False
-Vermont,Rutland,Jerome Segal,BAR,1,False
-Vermont,Rutland,Keith McCormic,BMP,0,False
-Vermont,Rutland,Zachary Scalf,IND,0,False
+Vermont,Rutland County,Joe Biden,DEM,4679,True
+Vermont,Rutland County,Donald Trump,REP,3026,False
+Vermont,Rutland County,Jo Jorgensen,LIB,100,False
+Vermont,Rutland County, Write-ins,WRI,64,False
+Vermont,Rutland County,Christopher LaFontaine,IND,31,False
+Vermont,Rutland County,Kanye West,IND,28,False
+Vermont,Rutland County,Brooke Paige,GOP,21,False
+Vermont,Rutland County,Howie Hawkins,GRN,18,False
+Vermont,Rutland County,Gloria La Riva,PSL,7,False
+Vermont,Rutland County,Alyson Kennedy,SWP,6,False
+Vermont,Rutland County,Richard Duncan,IND,5,False
+Vermont,Rutland County,Brian Carroll,ASP,4,False
+Vermont,Rutland County,Phil Collins,PRO,3,False
+Vermont,Rutland County,Gary Swing,BFP,2,False
+Vermont,Rutland County,Don Blankenship,CST,1,False
+Vermont,Rutland County,Rocky De La Fuente,ALI,1,False
+Vermont,Rutland County,Blake Huber,APV,1,False
+Vermont,Rutland County,Kyle Kopitke,IAP,1,False
+Vermont,Rutland County,Brock Pierce,IND,1,False
+Vermont,Rutland County,Jerome Segal,BAR,1,False
+Vermont,Rutland County,Keith McCormic,BMP,0,False
+Vermont,Rutland County,Zachary Scalf,IND,0,False
 Vermont,Rutland Town,Joe Biden,DEM,1376,True
 Vermont,Rutland Town,Donald Trump,REP,1039,False
 Vermont,Rutland Town,Jo Jorgensen,LIB,28,False
@@ -23371,28 +23431,28 @@ Vermont,Bethel,Brock Pierce,IND,0,False
 Vermont,Bethel,Zachary Scalf,IND,0,False
 Vermont,Bethel,Jerome Segal,BAR,0,False
 Vermont,Bethel,Gary Swing,BFP,0,False
-Vermont,Addison,Joe Biden,DEM,445,True
-Vermont,Addison,Donald Trump,REP,379,False
-Vermont,Addison,Jo Jorgensen,LIB,15,False
-Vermont,Addison,Kanye West,IND,6,False
-Vermont,Addison,Brooke Paige,GOP,5,False
-Vermont,Addison,Christopher LaFontaine,IND,4,False
-Vermont,Addison, Write-ins,WRI,4,False
-Vermont,Addison,Brian Carroll,ASP,3,False
-Vermont,Addison,Alyson Kennedy,SWP,3,False
-Vermont,Addison,Howie Hawkins,GRN,2,False
-Vermont,Addison,Don Blankenship,CST,1,False
-Vermont,Addison,Rocky De La Fuente,ALI,1,False
-Vermont,Addison,Kyle Kopitke,IAP,1,False
-Vermont,Addison,Jerome Segal,BAR,1,False
-Vermont,Addison,Phil Collins,PRO,0,False
-Vermont,Addison,Richard Duncan,IND,0,False
-Vermont,Addison,Blake Huber,APV,0,False
-Vermont,Addison,Gloria La Riva,PSL,0,False
-Vermont,Addison,Keith McCormic,BMP,0,False
-Vermont,Addison,Brock Pierce,IND,0,False
-Vermont,Addison,Zachary Scalf,IND,0,False
-Vermont,Addison,Gary Swing,BFP,0,False
+Vermont,Addison County,Joe Biden,DEM,445,True
+Vermont,Addison County,Donald Trump,REP,379,False
+Vermont,Addison County,Jo Jorgensen,LIB,15,False
+Vermont,Addison County,Kanye West,IND,6,False
+Vermont,Addison County,Brooke Paige,GOP,5,False
+Vermont,Addison County,Christopher LaFontaine,IND,4,False
+Vermont,Addison County, Write-ins,WRI,4,False
+Vermont,Addison County,Brian Carroll,ASP,3,False
+Vermont,Addison County,Alyson Kennedy,SWP,3,False
+Vermont,Addison County,Howie Hawkins,GRN,2,False
+Vermont,Addison County,Don Blankenship,CST,1,False
+Vermont,Addison County,Rocky De La Fuente,ALI,1,False
+Vermont,Addison County,Kyle Kopitke,IAP,1,False
+Vermont,Addison County,Jerome Segal,BAR,1,False
+Vermont,Addison County,Phil Collins,PRO,0,False
+Vermont,Addison County,Richard Duncan,IND,0,False
+Vermont,Addison County,Blake Huber,APV,0,False
+Vermont,Addison County,Gloria La Riva,PSL,0,False
+Vermont,Addison County,Keith McCormic,BMP,0,False
+Vermont,Addison County,Brock Pierce,IND,0,False
+Vermont,Addison County,Zachary Scalf,IND,0,False
+Vermont,Addison County,Gary Swing,BFP,0,False
 Vermont,Tinmouth,Joe Biden,DEM,170,True
 Vermont,Tinmouth,Donald Trump,REP,163,False
 Vermont,Tinmouth,Jo Jorgensen,LIB,4,False
@@ -23767,28 +23827,28 @@ Vermont,Warren,Keith McCormic,BMP,0,False
 Vermont,Warren,Brock Pierce,IND,0,False
 Vermont,Warren,Zachary Scalf,IND,0,False
 Vermont,Warren,Jerome Segal,BAR,0,False
-Vermont,Washington,Joe Biden,DEM,306,True
-Vermont,Washington,Donald Trump,REP,283,False
-Vermont,Washington,Jo Jorgensen,LIB,7,False
-Vermont,Washington,Brooke Paige,GOP,4,False
-Vermont,Washington,Kanye West,IND,2,False
-Vermont,Washington, Write-ins,WRI,2,False
-Vermont,Washington,Brian Carroll,ASP,1,False
-Vermont,Washington,Howie Hawkins,GRN,1,False
-Vermont,Washington,Christopher LaFontaine,IND,1,False
-Vermont,Washington,Gloria La Riva,PSL,1,False
-Vermont,Washington,Keith McCormic,BMP,1,False
-Vermont,Washington,Don Blankenship,CST,0,False
-Vermont,Washington,Phil Collins,PRO,0,False
-Vermont,Washington,Rocky De La Fuente,ALI,0,False
-Vermont,Washington,Richard Duncan,IND,0,False
-Vermont,Washington,Blake Huber,APV,0,False
-Vermont,Washington,Alyson Kennedy,SWP,0,False
-Vermont,Washington,Kyle Kopitke,IAP,0,False
-Vermont,Washington,Brock Pierce,IND,0,False
-Vermont,Washington,Zachary Scalf,IND,0,False
-Vermont,Washington,Jerome Segal,BAR,0,False
-Vermont,Washington,Gary Swing,BFP,0,False
+Vermont,Washington County,Joe Biden,DEM,306,True
+Vermont,Washington County,Donald Trump,REP,283,False
+Vermont,Washington County,Jo Jorgensen,LIB,7,False
+Vermont,Washington County,Brooke Paige,GOP,4,False
+Vermont,Washington County,Kanye West,IND,2,False
+Vermont,Washington County, Write-ins,WRI,2,False
+Vermont,Washington County,Brian Carroll,ASP,1,False
+Vermont,Washington County,Howie Hawkins,GRN,1,False
+Vermont,Washington County,Christopher LaFontaine,IND,1,False
+Vermont,Washington County,Gloria La Riva,PSL,1,False
+Vermont,Washington County,Keith McCormic,BMP,1,False
+Vermont,Washington County,Don Blankenship,CST,0,False
+Vermont,Washington County,Phil Collins,PRO,0,False
+Vermont,Washington County,Rocky De La Fuente,ALI,0,False
+Vermont,Washington County,Richard Duncan,IND,0,False
+Vermont,Washington County,Blake Huber,APV,0,False
+Vermont,Washington County,Alyson Kennedy,SWP,0,False
+Vermont,Washington County,Kyle Kopitke,IAP,0,False
+Vermont,Washington County,Brock Pierce,IND,0,False
+Vermont,Washington County,Zachary Scalf,IND,0,False
+Vermont,Washington County,Jerome Segal,BAR,0,False
+Vermont,Washington County,Gary Swing,BFP,0,False
 Vermont,Waterbury,Joe Biden,DEM,2778,True
 Vermont,Waterbury,Donald Trump,REP,621,False
 Vermont,Waterbury,Jo Jorgensen,LIB,31,False
@@ -24295,50 +24355,50 @@ Vermont,Wilmington,Gloria La Riva,PSL,0,False
 Vermont,Wilmington,Zachary Scalf,IND,0,False
 Vermont,Wilmington,Jerome Segal,BAR,0,False
 Vermont,Wilmington,Gary Swing,BFP,0,False
-Vermont,Windham,Joe Biden,DEM,187,True
-Vermont,Windham,Donald Trump,REP,83,False
-Vermont,Windham,Jo Jorgensen,LIB,2,False
-Vermont,Windham,Brooke Paige,GOP,2,False
-Vermont,Windham,Gary Swing,BFP,2,False
-Vermont,Windham,Kanye West,IND,2,False
-Vermont,Windham,Kyle Kopitke,IAP,1,False
-Vermont,Windham,Christopher LaFontaine,IND,1,False
-Vermont,Windham,Keith McCormic,BMP,1,False
-Vermont,Windham,Zachary Scalf,IND,1,False
-Vermont,Windham,Don Blankenship,CST,0,False
-Vermont,Windham,Brian Carroll,ASP,0,False
-Vermont,Windham,Phil Collins,PRO,0,False
-Vermont,Windham,Rocky De La Fuente,ALI,0,False
-Vermont,Windham,Richard Duncan,IND,0,False
-Vermont,Windham,Howie Hawkins,GRN,0,False
-Vermont,Windham,Blake Huber,APV,0,False
-Vermont,Windham,Alyson Kennedy,SWP,0,False
-Vermont,Windham,Gloria La Riva,PSL,0,False
-Vermont,Windham,Brock Pierce,IND,0,False
-Vermont,Windham,Jerome Segal,BAR,0,False
-Vermont,Windham, Write-ins,WRI,0,False
-Vermont,Windsor,Joe Biden,DEM,1266,True
-Vermont,Windsor,Donald Trump,REP,537,False
-Vermont,Windsor,Jo Jorgensen,LIB,45,False
-Vermont,Windsor, Write-ins,WRI,9,False
-Vermont,Windsor,Brian Carroll,ASP,8,False
-Vermont,Windsor,Kanye West,IND,8,False
-Vermont,Windsor,Christopher LaFontaine,IND,6,False
-Vermont,Windsor,Howie Hawkins,GRN,3,False
-Vermont,Windsor,Don Blankenship,CST,2,False
-Vermont,Windsor,Gary Swing,BFP,2,False
-Vermont,Windsor,Blake Huber,APV,1,False
-Vermont,Windsor,Kyle Kopitke,IAP,1,False
-Vermont,Windsor,Gloria La Riva,PSL,1,False
-Vermont,Windsor,Brooke Paige,GOP,1,False
-Vermont,Windsor,Phil Collins,PRO,0,False
-Vermont,Windsor,Rocky De La Fuente,ALI,0,False
-Vermont,Windsor,Richard Duncan,IND,0,False
-Vermont,Windsor,Alyson Kennedy,SWP,0,False
-Vermont,Windsor,Keith McCormic,BMP,0,False
-Vermont,Windsor,Brock Pierce,IND,0,False
-Vermont,Windsor,Zachary Scalf,IND,0,False
-Vermont,Windsor,Jerome Segal,BAR,0,False
+Vermont,Windham County,Joe Biden,DEM,187,True
+Vermont,Windham County,Donald Trump,REP,83,False
+Vermont,Windham County,Jo Jorgensen,LIB,2,False
+Vermont,Windham County,Brooke Paige,GOP,2,False
+Vermont,Windham County,Gary Swing,BFP,2,False
+Vermont,Windham County,Kanye West,IND,2,False
+Vermont,Windham County,Kyle Kopitke,IAP,1,False
+Vermont,Windham County,Christopher LaFontaine,IND,1,False
+Vermont,Windham County,Keith McCormic,BMP,1,False
+Vermont,Windham County,Zachary Scalf,IND,1,False
+Vermont,Windham County,Don Blankenship,CST,0,False
+Vermont,Windham County,Brian Carroll,ASP,0,False
+Vermont,Windham County,Phil Collins,PRO,0,False
+Vermont,Windham County,Rocky De La Fuente,ALI,0,False
+Vermont,Windham County,Richard Duncan,IND,0,False
+Vermont,Windham County,Howie Hawkins,GRN,0,False
+Vermont,Windham County,Blake Huber,APV,0,False
+Vermont,Windham County,Alyson Kennedy,SWP,0,False
+Vermont,Windham County,Gloria La Riva,PSL,0,False
+Vermont,Windham County,Brock Pierce,IND,0,False
+Vermont,Windham County,Jerome Segal,BAR,0,False
+Vermont,Windham County, Write-ins,WRI,0,False
+Vermont,Windsor County,Joe Biden,DEM,1266,True
+Vermont,Windsor County,Donald Trump,REP,537,False
+Vermont,Windsor County,Jo Jorgensen,LIB,45,False
+Vermont,Windsor County, Write-ins,WRI,9,False
+Vermont,Windsor County,Brian Carroll,ASP,8,False
+Vermont,Windsor County,Kanye West,IND,8,False
+Vermont,Windsor County,Christopher LaFontaine,IND,6,False
+Vermont,Windsor County,Howie Hawkins,GRN,3,False
+Vermont,Windsor County,Don Blankenship,CST,2,False
+Vermont,Windsor County,Gary Swing,BFP,2,False
+Vermont,Windsor County,Blake Huber,APV,1,False
+Vermont,Windsor County,Kyle Kopitke,IAP,1,False
+Vermont,Windsor County,Gloria La Riva,PSL,1,False
+Vermont,Windsor County,Brooke Paige,GOP,1,False
+Vermont,Windsor County,Phil Collins,PRO,0,False
+Vermont,Windsor County,Rocky De La Fuente,ALI,0,False
+Vermont,Windsor County,Richard Duncan,IND,0,False
+Vermont,Windsor County,Alyson Kennedy,SWP,0,False
+Vermont,Windsor County,Keith McCormic,BMP,0,False
+Vermont,Windsor County,Brock Pierce,IND,0,False
+Vermont,Windsor County,Zachary Scalf,IND,0,False
+Vermont,Windsor County,Jerome Segal,BAR,0,False
 Vermont,Braintree,Joe Biden,DEM,434,True
 Vermont,Braintree,Donald Trump,REP,260,False
 Vermont,Braintree, Write-ins,WRI,6,False
@@ -25043,28 +25103,28 @@ Vermont,Chester,Brock Pierce,IND,0,False
 Vermont,Chester,Zachary Scalf,IND,0,False
 Vermont,Chester,Jerome Segal,BAR,0,False
 Vermont,Chester,Gary Swing,BFP,0,False
-Vermont,Chittenden,Joe Biden,DEM,473,True
-Vermont,Chittenden,Donald Trump,REP,343,False
-Vermont,Chittenden,Jo Jorgensen,LIB,12,False
-Vermont,Chittenden,Brooke Paige,GOP,7,False
-Vermont,Chittenden,Howie Hawkins,GRN,5,False
-Vermont,Chittenden,Kanye West,IND,5,False
-Vermont,Chittenden,Brian Carroll,ASP,3,False
-Vermont,Chittenden, Write-ins,WRI,2,False
-Vermont,Chittenden,Rocky De La Fuente,ALI,1,False
-Vermont,Chittenden,Richard Duncan,IND,1,False
-Vermont,Chittenden,Keith McCormic,BMP,1,False
-Vermont,Chittenden,Don Blankenship,CST,0,False
-Vermont,Chittenden,Phil Collins,PRO,0,False
-Vermont,Chittenden,Blake Huber,APV,0,False
-Vermont,Chittenden,Alyson Kennedy,SWP,0,False
-Vermont,Chittenden,Kyle Kopitke,IAP,0,False
-Vermont,Chittenden,Christopher LaFontaine,IND,0,False
-Vermont,Chittenden,Gloria La Riva,PSL,0,False
-Vermont,Chittenden,Brock Pierce,IND,0,False
-Vermont,Chittenden,Zachary Scalf,IND,0,False
-Vermont,Chittenden,Jerome Segal,BAR,0,False
-Vermont,Chittenden,Gary Swing,BFP,0,False
+Vermont,Chittenden County,Joe Biden,DEM,473,True
+Vermont,Chittenden County,Donald Trump,REP,343,False
+Vermont,Chittenden County,Jo Jorgensen,LIB,12,False
+Vermont,Chittenden County,Brooke Paige,GOP,7,False
+Vermont,Chittenden County,Howie Hawkins,GRN,5,False
+Vermont,Chittenden County,Kanye West,IND,5,False
+Vermont,Chittenden County,Brian Carroll,ASP,3,False
+Vermont,Chittenden County, Write-ins,WRI,2,False
+Vermont,Chittenden County,Rocky De La Fuente,ALI,1,False
+Vermont,Chittenden County,Richard Duncan,IND,1,False
+Vermont,Chittenden County,Keith McCormic,BMP,1,False
+Vermont,Chittenden County,Don Blankenship,CST,0,False
+Vermont,Chittenden County,Phil Collins,PRO,0,False
+Vermont,Chittenden County,Blake Huber,APV,0,False
+Vermont,Chittenden County,Alyson Kennedy,SWP,0,False
+Vermont,Chittenden County,Kyle Kopitke,IAP,0,False
+Vermont,Chittenden County,Christopher LaFontaine,IND,0,False
+Vermont,Chittenden County,Gloria La Riva,PSL,0,False
+Vermont,Chittenden County,Brock Pierce,IND,0,False
+Vermont,Chittenden County,Zachary Scalf,IND,0,False
+Vermont,Chittenden County,Jerome Segal,BAR,0,False
+Vermont,Chittenden County,Gary Swing,BFP,0,False
 Vermont,Clarendon,Donald Trump,REP,782,True
 Vermont,Clarendon,Joe Biden,DEM,656,False
 Vermont,Clarendon,Jo Jorgensen,LIB,11,False
@@ -25527,28 +25587,28 @@ Vermont,Enosburgh,Keith McCormic,BMP,0,False
 Vermont,Enosburgh,Brock Pierce,IND,0,False
 Vermont,Enosburgh,Zachary Scalf,IND,0,False
 Vermont,Enosburgh,Jerome Segal,BAR,0,False
-Vermont,Essex,Joe Biden,DEM,9573,True
-Vermont,Essex,Donald Trump,REP,3415,False
-Vermont,Essex,Jo Jorgensen,LIB,148,False
-Vermont,Essex, Write-ins,WRI,94,False
-Vermont,Essex,Kanye West,IND,51,False
-Vermont,Essex,Brooke Paige,GOP,33,False
-Vermont,Essex,Howie Hawkins,GRN,29,False
-Vermont,Essex,Christopher LaFontaine,IND,26,False
-Vermont,Essex,Brian Carroll,ASP,8,False
-Vermont,Essex,Keith McCormic,BMP,8,False
-Vermont,Essex,Brock Pierce,IND,7,False
-Vermont,Essex,Richard Duncan,IND,5,False
-Vermont,Essex,Don Blankenship,CST,4,False
-Vermont,Essex,Phil Collins,PRO,4,False
-Vermont,Essex,Gary Swing,BFP,4,False
-Vermont,Essex,Gloria La Riva,PSL,2,False
-Vermont,Essex,Rocky De La Fuente,ALI,1,False
-Vermont,Essex,Alyson Kennedy,SWP,1,False
-Vermont,Essex,Jerome Segal,BAR,1,False
-Vermont,Essex,Blake Huber,APV,0,False
-Vermont,Essex,Kyle Kopitke,IAP,0,False
-Vermont,Essex,Zachary Scalf,IND,0,False
+Vermont,Essex County,Joe Biden,DEM,9573,True
+Vermont,Essex County,Donald Trump,REP,3415,False
+Vermont,Essex County,Jo Jorgensen,LIB,148,False
+Vermont,Essex County, Write-ins,WRI,94,False
+Vermont,Essex County,Kanye West,IND,51,False
+Vermont,Essex County,Brooke Paige,GOP,33,False
+Vermont,Essex County,Howie Hawkins,GRN,29,False
+Vermont,Essex County,Christopher LaFontaine,IND,26,False
+Vermont,Essex County,Brian Carroll,ASP,8,False
+Vermont,Essex County,Keith McCormic,BMP,8,False
+Vermont,Essex County,Brock Pierce,IND,7,False
+Vermont,Essex County,Richard Duncan,IND,5,False
+Vermont,Essex County,Don Blankenship,CST,4,False
+Vermont,Essex County,Phil Collins,PRO,4,False
+Vermont,Essex County,Gary Swing,BFP,4,False
+Vermont,Essex County,Gloria La Riva,PSL,2,False
+Vermont,Essex County,Rocky De La Fuente,ALI,1,False
+Vermont,Essex County,Alyson Kennedy,SWP,1,False
+Vermont,Essex County,Jerome Segal,BAR,1,False
+Vermont,Essex County,Blake Huber,APV,0,False
+Vermont,Essex County,Kyle Kopitke,IAP,0,False
+Vermont,Essex County,Zachary Scalf,IND,0,False
 Vermont,Fairfax,Joe Biden,DEM,1648,True
 Vermont,Fairfax,Donald Trump,REP,1229,False
 Vermont,Fairfax,Jo Jorgensen,LIB,55,False
@@ -25725,28 +25785,28 @@ Vermont,Fletcher,Gloria La Riva,PSL,0,False
 Vermont,Fletcher,Brock Pierce,IND,0,False
 Vermont,Fletcher,Zachary Scalf,IND,0,False
 Vermont,Fletcher,Jerome Segal,BAR,0,False
-Vermont,Franklin,Donald Trump,REP,407,True
-Vermont,Franklin,Joe Biden,DEM,318,False
-Vermont,Franklin,Jo Jorgensen,LIB,11,False
-Vermont,Franklin,Christopher LaFontaine,IND,6,False
-Vermont,Franklin,Alyson Kennedy,SWP,3,False
-Vermont,Franklin,Kanye West,IND,3,False
-Vermont,Franklin,Brian Carroll,ASP,1,False
-Vermont,Franklin,Richard Duncan,IND,1,False
-Vermont,Franklin,Blake Huber,APV,1,False
-Vermont,Franklin,Kyle Kopitke,IAP,1,False
-Vermont,Franklin,Brooke Paige,GOP,1,False
-Vermont,Franklin, Write-ins,WRI,1,False
-Vermont,Franklin,Don Blankenship,CST,0,False
-Vermont,Franklin,Phil Collins,PRO,0,False
-Vermont,Franklin,Rocky De La Fuente,ALI,0,False
-Vermont,Franklin,Howie Hawkins,GRN,0,False
-Vermont,Franklin,Gloria La Riva,PSL,0,False
-Vermont,Franklin,Keith McCormic,BMP,0,False
-Vermont,Franklin,Brock Pierce,IND,0,False
-Vermont,Franklin,Zachary Scalf,IND,0,False
-Vermont,Franklin,Jerome Segal,BAR,0,False
-Vermont,Franklin,Gary Swing,BFP,0,False
+Vermont,Franklin County,Donald Trump,REP,407,True
+Vermont,Franklin County,Joe Biden,DEM,318,False
+Vermont,Franklin County,Jo Jorgensen,LIB,11,False
+Vermont,Franklin County,Christopher LaFontaine,IND,6,False
+Vermont,Franklin County,Alyson Kennedy,SWP,3,False
+Vermont,Franklin County,Kanye West,IND,3,False
+Vermont,Franklin County,Brian Carroll,ASP,1,False
+Vermont,Franklin County,Richard Duncan,IND,1,False
+Vermont,Franklin County,Blake Huber,APV,1,False
+Vermont,Franklin County,Kyle Kopitke,IAP,1,False
+Vermont,Franklin County,Brooke Paige,GOP,1,False
+Vermont,Franklin County, Write-ins,WRI,1,False
+Vermont,Franklin County,Don Blankenship,CST,0,False
+Vermont,Franklin County,Phil Collins,PRO,0,False
+Vermont,Franklin County,Rocky De La Fuente,ALI,0,False
+Vermont,Franklin County,Howie Hawkins,GRN,0,False
+Vermont,Franklin County,Gloria La Riva,PSL,0,False
+Vermont,Franklin County,Keith McCormic,BMP,0,False
+Vermont,Franklin County,Brock Pierce,IND,0,False
+Vermont,Franklin County,Zachary Scalf,IND,0,False
+Vermont,Franklin County,Jerome Segal,BAR,0,False
+Vermont,Franklin County,Gary Swing,BFP,0,False
 Vermont,Georgia,Joe Biden,DEM,1517,True
 Vermont,Georgia,Donald Trump,REP,1295,False
 Vermont,Georgia,Jo Jorgensen,LIB,34,False
@@ -25879,28 +25939,28 @@ Vermont,Bakersfield,Keith McCormic,BMP,0,False
 Vermont,Bakersfield,Brock Pierce,IND,0,False
 Vermont,Bakersfield,Zachary Scalf,IND,0,False
 Vermont,Bakersfield,Gary Swing,BFP,0,False
-Vermont,Grand Isle,Joe Biden,DEM,831,True
-Vermont,Grand Isle,Donald Trump,REP,538,False
-Vermont,Grand Isle, Write-ins,WRI,9,False
-Vermont,Grand Isle,Jo Jorgensen,LIB,6,False
-Vermont,Grand Isle,Kanye West,IND,5,False
-Vermont,Grand Isle,Brooke Paige,GOP,4,False
-Vermont,Grand Isle,Christopher LaFontaine,IND,3,False
-Vermont,Grand Isle,Don Blankenship,CST,2,False
-Vermont,Grand Isle,Richard Duncan,IND,2,False
-Vermont,Grand Isle,Howie Hawkins,GRN,2,False
-Vermont,Grand Isle,Blake Huber,APV,2,False
-Vermont,Grand Isle,Keith McCormic,BMP,2,False
-Vermont,Grand Isle,Alyson Kennedy,SWP,1,False
-Vermont,Grand Isle,Brock Pierce,IND,1,False
-Vermont,Grand Isle,Gary Swing,BFP,1,False
-Vermont,Grand Isle,Brian Carroll,ASP,0,False
-Vermont,Grand Isle,Phil Collins,PRO,0,False
-Vermont,Grand Isle,Rocky De La Fuente,ALI,0,False
-Vermont,Grand Isle,Kyle Kopitke,IAP,0,False
-Vermont,Grand Isle,Gloria La Riva,PSL,0,False
-Vermont,Grand Isle,Zachary Scalf,IND,0,False
-Vermont,Grand Isle,Jerome Segal,BAR,0,False
+Vermont,Grand Isle County,Joe Biden,DEM,831,True
+Vermont,Grand Isle County,Donald Trump,REP,538,False
+Vermont,Grand Isle County, Write-ins,WRI,9,False
+Vermont,Grand Isle County,Jo Jorgensen,LIB,6,False
+Vermont,Grand Isle County,Kanye West,IND,5,False
+Vermont,Grand Isle County,Brooke Paige,GOP,4,False
+Vermont,Grand Isle County,Christopher LaFontaine,IND,3,False
+Vermont,Grand Isle County,Don Blankenship,CST,2,False
+Vermont,Grand Isle County,Richard Duncan,IND,2,False
+Vermont,Grand Isle County,Howie Hawkins,GRN,2,False
+Vermont,Grand Isle County,Blake Huber,APV,2,False
+Vermont,Grand Isle County,Keith McCormic,BMP,2,False
+Vermont,Grand Isle County,Alyson Kennedy,SWP,1,False
+Vermont,Grand Isle County,Brock Pierce,IND,1,False
+Vermont,Grand Isle County,Gary Swing,BFP,1,False
+Vermont,Grand Isle County,Brian Carroll,ASP,0,False
+Vermont,Grand Isle County,Phil Collins,PRO,0,False
+Vermont,Grand Isle County,Rocky De La Fuente,ALI,0,False
+Vermont,Grand Isle County,Kyle Kopitke,IAP,0,False
+Vermont,Grand Isle County,Gloria La Riva,PSL,0,False
+Vermont,Grand Isle County,Zachary Scalf,IND,0,False
+Vermont,Grand Isle County,Jerome Segal,BAR,0,False
 Vermont,Granville,Joe Biden,DEM,136,True
 Vermont,Granville,Donald Trump,REP,30,False
 Vermont,Granville,Christopher LaFontaine,IND,2,False
@@ -31528,11 +31588,27 @@ Connecticut,Essex,Donald Trump,REP,1635,False
 Connecticut,Essex,Jo Jorgensen,LIB,44,False
 Connecticut,Essex,Howie Hawkins,GRN,23,False
 Connecticut,Essex, Write-ins,WRI,2,False
-Connecticut,Fairfield,Joe Biden,DEM,22861,True
-Connecticut,Fairfield,Donald Trump,REP,12052,False
-Connecticut,Fairfield,Jo Jorgensen,LIB,377,False
-Connecticut,Fairfield,Howie Hawkins,GRN,116,False
-Connecticut,Fairfield, Write-ins,WRI,8,False
+
+Connecticut,Fairfield County,Joe Biden,DEM,22861,True
+Connecticut,Fairfield County,Donald Trump,REP,12052,False
+Connecticut,Fairfield County,Jo Jorgensen,LIB,377,False
+Connecticut,Fairfield County,Howie Hawkins,GRN,116,False
+Connecticut,Fairfield County, Write-ins,WRI,8,False
+Connecticut,Hartford County,Joe Biden,DEM,159024,True
+Connecticut,Hartford County,Donald Trump,REP,159024,False
+Connecticut,Litchfield County,Joe Biden,DEM,50164,False
+Connecticut,Litchfield County,Donald Trump,REP,55601,True
+Connecticut,Middlesex County,Joe Biden,DEM,56848,True
+Connecticut,Middlesex County,Donald Trump,REP,40665,False
+Connecticut,New Haven County,Joe Biden,DEM,242630,True
+Connecticut,New Haven County,Donald Trump,REP,169893,False
+Connecticut,New London County,Joe Biden,DEM,79459,True
+Connecticut,New London County,Donald Trump,REP,57110,False
+Connecticut,Tolland County,Joe Biden,DEM,44151,True
+Connecticut,Tolland County,Donald Trump,REP,34838,False
+Connecticut,Windham County,Joe Biden,DEM,26706,False
+Connecticut,Windham County,Donald Trump,REP,29141,True
+
 Connecticut,Farmington,Joe Biden,DEM,9616,True
 Connecticut,Farmington,Donald Trump,REP,6160,False
 Connecticut,Farmington,Jo Jorgensen,LIB,202,False

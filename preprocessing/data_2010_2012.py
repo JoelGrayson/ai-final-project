@@ -45,5 +45,3 @@ def data_2010_2012():
     # Export
     merged.to_csv('./dist/2010-acs-and-2012-votes.csv', index=False, columns=new_index)
 
-
-

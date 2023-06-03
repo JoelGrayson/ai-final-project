@@ -278,6 +278,14 @@ Teller County, Colorado	08119	0.0
 Washington County, Colorado	08121	0.0
 Weld County, Colorado	08123	0.0
 Yuma County, Colorado	08125	0.0
+Fairfield County, Connecticut	09001	1.0
+Hartford County, Connecticut	09003	0.0
+Litchfield County, Connecticut	09005	0.0
+Middlesex County, Connecticut	09007	1.0
+New Haven County, Connecticut	09009	1.0
+New London County, Connecticut	09011	1.0
+Tolland County, Connecticut	09013	1.0
+Windham County, Connecticut	09015	0.0
 Kent County, Delaware	10001	1.0
 New Castle County, Delaware	10003	1.0
 Sussex County, Delaware	10005	0.0
@@ -1137,10 +1145,13 @@ West Baton Rouge Parish, Louisiana	22121	0.0
 West Carroll Parish, Louisiana	22123	0.0
 West Feliciana Parish, Louisiana	22125	0.0
 Winn Parish, Louisiana	22127	0.0
+Androscoggin County, Maine	23001	0.0
 Aroostook County, Maine	23003	0.0
 Cumberland County, Maine	23005	1.0
 Franklin County, Maine	23007	1.0
 Hancock County, Maine	23009	0.0
+Kennebec County, Maine	23011	1.0
+Knox County, Maine	23013	1.0
 Lincoln County, Maine	23015	0.0
 Oxford County, Maine	23017	0.0
 Penobscot County, Maine	23019	0.0
@@ -1173,6 +1184,19 @@ Washington County, Maryland	24043	0.0
 Wicomico County, Maryland	24045	0.0
 Worcester County, Maryland	24047	0.0
 Baltimore city, Maryland	24510	1.0
+Barnstable County, Massachusetts	25001	1.0
+Berkshire County, Massachusetts	25003	1.0
+Bristol County, Massachusetts	25005	1.0
+Dukes County, Massachusetts	25007	1.0
+Essex County, Massachusetts	25009	1.0
+Franklin County, Massachusetts	25011	1.0
+Hampden County, Massachusetts	25013	0.0
+Hampshire County, Massachusetts	25015	1.0
+Middlesex County, Massachusetts	25017	1.0
+Nantucket County, Massachusetts	25019	1.0
+Norfolk County, Massachusetts	25021	1.0
+Plymouth County, Massachusetts	25023	1.0
+Worcester County, Massachusetts	25027	1.0
 Alcona County, Michigan	26001	0.0
 Alger County, Michigan	26003	0.0
 Allegan County, Michigan	26005	0.0
@@ -1706,7 +1730,16 @@ Storey County, Nevada	32029	0.0
 Washoe County, Nevada	32031	1.0
 White Pine County, Nevada	32033	0.0
 Carson City, Nevada	32510	0.0
+Belknap County, New Hampshire	33001	0.0
 Carroll County, New Hampshire	33003	0.0
+Cheshire County, New Hampshire	33005	1.0
+Coos County, New Hampshire	33007	0.0
+Grafton County, New Hampshire	33009	1.0
+Hillsborough County, New Hampshire	33011	1.0
+Merrimack County, New Hampshire	33013	1.0
+Rockingham County, New Hampshire	33015	1.0
+Strafford County, New Hampshire	33017	1.0
+Sullivan County, New Hampshire	33019	1.0
 Atlantic County, New Jersey	34001	1.0
 Bergen County, New Jersey	34003	1.0
 Burlington County, New Jersey	34005	1.0
@@ -2243,6 +2276,11 @@ Wayne County, Pennsylvania	42127	0.0
 Westmoreland County, Pennsylvania	42129	0.0
 Wyoming County, Pennsylvania	42131	0.0
 York County, Pennsylvania	42133	0.0
+Bristol County, Rhode Island	44001	1.0
+Kent County, Rhode Island	44003	1.0
+Newport County, Rhode Island	44005	1.0
+Providence County, Rhode Island	44007	1.0
+Washington County, Rhode Island	44009	1.0
 Abbeville County, South Carolina	45001	0.0
 Aiken County, South Carolina	45003	0.0
 Allendale County, South Carolina	45005	1.0
@@ -2732,6 +2770,20 @@ Wasatch County, Utah	49051	0.0
 Washington County, Utah	49053	0.0
 Wayne County, Utah	49055	0.0
 Weber County, Utah	49057	0.0
+Addison County, Vermont	50001	1.0
+Bennington County, Vermont	50003	1.0
+Caledonia County, Vermont	50005	1.0
+Chittenden County, Vermont	50007	1.0
+Essex County, Vermont	50009	0.0
+Franklin County, Vermont	50011	0.0
+Grand Isle County, Vermont	50013	1.0
+Lamoille County, Vermont	50015	1.0
+Orange County, Vermont	50017	0.0
+Orleans County, Vermont	50019	1.0
+Rutland County, Vermont	50021	1.0
+Washington County, Vermont	50023	1.0
+Windham County, Vermont	50025	1.0
+Windsor County, Vermont	50027	1.0
 Accomack County, Virginia	51001	0.0
 Albemarle County, Virginia	51003	1.0
 Alleghany County, Virginia	51005	0.0
