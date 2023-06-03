@@ -2,7 +2,7 @@ import requests
 import plotly.express as px
 import pandas as pd
 import os
-from preprocessing.fips2county_name import fips2county_name
+from preprocessing.helpers.fips2county_name import fips2county_name
 
 # Get counties from plotly
 response=requests.get('https://raw.githubusercontent.com/plotly/datasets/master/geojson-counties-fips.json')

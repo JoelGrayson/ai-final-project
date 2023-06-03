@@ -5,16 +5,17 @@ validation_size=.10 #used to find C
 train_size=.60
 ### </>
 
-def load_raw_data(): #no splits
-    df=pd.read_csv('./preprocessing/dist/2020-acs-and-votes.csv', dtype={ 'fips': 'str', 'party': 'float' })\
+def load_data(name): #no splits
+    df=pd.read_csv(f'./preprocessing/dist/{name}.csv', dtype={ 'fips': 'str', 'party': 'float' })\
         .sample(frac=1) #shuffle
     X=df.drop(columns=['party', 'fips'])
     y=df.party
     fips=df.fips.astype('str')
     return X, y, fips
 
-def load_data(): #splits into categories
-    X, y, fips=load_raw_data()
+
+def load_split_data(name): #splits into categories
+    X, y, fips=load_data(name)
 
     # Manual split
     num_rows=X.shape[0]
