@@ -14,8 +14,8 @@ echo Preprocessing data
 )
 
 
-echo Running AI model
-python3 main.py
+echo Comparing AI model
+python3 model_comparison.py | glow
 
 
 echo Making map

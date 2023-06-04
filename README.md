@@ -48,6 +48,7 @@ https://data.census.gov/table?t=Business+and+Economy:Business+and+Owner+Characte
 # Requirements
 ## Running
 pip packages: kaleido pandas requests plotly
+Pro tip: pipe `python3 model_comparison.py` into glow for rendering markdown. Install glow [here](https://github.com/charmbracelet/glow#installation)
 
 ## Development
 ipython3
