@@ -1,7 +1,7 @@
 from load_data import load_split_data, continuous2binary
 from preprocessing.dist.names import names
 
-from models.binary import decision_trees, knn, logistic_regression, random_forest, support_vector_machines
+from models.binary import decision_trees, knn, logistic_regression, naive_bayes, random_forest, support_vector_machines
 from models.probabilistic import linear_regression
 from models.probabilistic.evaluate import evaluate as probabilistic_evaluate
 from models.binary.evaluate import evaluate as binary_evaluate
@@ -27,6 +27,9 @@ binary_evaluate(data['y_test'], y_pred)
 print('\n## KNN')
 y_pred=knn.classify(data)
 binary_evaluate(data['y_test'], y_pred)
+print('\n## Naive-Bayes')
+y_pred=naive_bayes.classify(data)
+binary_evaluate(data['y_test'], y_pred)
 
 print('\n\n# 2020 Evaluation')
 data=continuous2binary(load_split_data(names['2020']))
@@ -47,5 +50,8 @@ y_pred=random_forest.classify(data)
 binary_evaluate(data['y_test'], y_pred)
 print('\n## KNN')
 y_pred=knn.classify(data)
+binary_evaluate(data['y_test'], y_pred)
+print('\n## Naive-Bayes')
+y_pred=naive_bayes.classify(data)
 binary_evaluate(data['y_test'], y_pred)
 
