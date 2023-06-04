@@ -1,9 +1,9 @@
-from sklearn.linear_model import LogisticRegression
+from sklearn.svm import SVC
 from models.binary.evaluate import evaluate
 
 def classify(data, C=1.0):
-    model=LogisticRegression(C=C, max_iter=3000) #classifier model
-    
+    model=SVC(C=C, max_iter=3000)
+
     model.fit(data['X_train'], data['y_train'])
     # Continuous
     y_pred=model.predict(data['X_test'])
@@ -11,7 +11,7 @@ def classify(data, C=1.0):
 
 
 def evaluate_hyperparameters(data, C): #train on training, evaluate on validation
-    model=LogisticRegression(C=C, max_iter=3000) #classifier model
+    model=SVC(C=C, max_iter=3000) #classifier model
     model.fit(data['X_train'], data['y_train'])
     # Continuous
     y_pred=model.predict(data['X_val'])

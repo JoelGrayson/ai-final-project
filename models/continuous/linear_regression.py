@@ -7,7 +7,7 @@ def sigmoid(x): #from stackoverflow.com/questions/3985619/how-to-calculate-a-log
 def classify(data):
     model=LinearRegression() #classifier model
     model.fit(data['X_train'], data['y_train'])
-    # Probabilistic
+    # Continuous
     y_pred=model.predict(data['X_test'])
     y_pred=sigmoid(y_pred) #keep it between 0-1
     return y_pred

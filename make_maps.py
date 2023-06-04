@@ -1,8 +1,8 @@
 from load_data import load_data, load_split_data, continuous2binary
 from maps.render_map import merge_fips, render_map
 from preprocessing.dist.names import names
-from models.probabilistic import linear_regression
-from models.probabilistic.evaluate import evaluate as probabilistic_evaluate
+from models.continuous import linear_regression
+from models.continuous.evaluate import evaluate as continuous_evaluate
 from models.binary import logistic_regression
 from models.binary.evaluate import evaluate as binary_evaluate
 
