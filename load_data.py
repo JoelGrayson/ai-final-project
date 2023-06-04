@@ -1,8 +1,9 @@
 import pandas as pd
 
 ### <CONFIG>
+train_size=.70
+test_size=.20
 validation_size=.10 #used to find C
-train_size=.60
 ### </>
 
 def load_data(name): #no splits

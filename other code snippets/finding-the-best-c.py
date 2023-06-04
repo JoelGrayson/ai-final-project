@@ -1,7 +1,9 @@
-print('## Logistic Regression')
+print('Evaluating C')
 for pow in range(-10, 10, 1):
     C=10**pow
-    y_pred=logistic_regression.classify(data, C)
     print('C', C)
-    probabilistic_evaluate(data['y_test'], y_pred)
+    support_vector_machines.evaluate_hyperparameters(data, C)
+
+
+exit(65) #stop the rest of the code from running
 
