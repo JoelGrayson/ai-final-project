@@ -7,7 +7,11 @@ validation_size=.10 #used to find C
 ### </>
 
 def load_data(name): #no splits
-    df=pd.read_csv(f'./preprocessing/dist/{name}.csv', dtype={ 'fips': 'str', 'party': 'float' })\
+    names={
+        '2020': '2020-acs-and-votes',
+        '2010-2012': '2010-acs-and-2012-votes'
+    }
+    df=pd.read_csv(f'./preprocessing/dist/{names[name]}.csv', dtype={ 'fips': 'str', 'party': 'float' })\
         .sample(frac=1) #shuffle
     X=df.drop(columns=['party', 'fips'])
     y=df.party
