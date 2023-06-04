@@ -1,7 +1,7 @@
 from load_data import load_split_data, continuous2binary
 from preprocessing.dist.names import names
 
-from models.binary import logistic_regression, support_vector_machines
+from models.binary import decision_trees, logistic_regression, support_vector_machines
 from models.probabilistic import linear_regression
 from models.probabilistic.evaluate import evaluate as probabilistic_evaluate
 from models.binary.evaluate import evaluate as binary_evaluate
@@ -18,6 +18,9 @@ binary_evaluate(data['y_test'], y_pred)
 print('\n## Support Vector Machines')
 y_pred=support_vector_machines.classify(data, C=100)
 binary_evaluate(data['y_test'], y_pred)
+print('\n## Decision Trees')
+y_pred=decision_trees.classify(data)
+binary_evaluate(data['y_test'], y_pred)
 
 print('\n\n# 2020 Evaluation')
 data=continuous2binary(load_split_data(names['2020']))
@@ -30,3 +33,7 @@ binary_evaluate(data['y_test'], y_pred)
 print('\n## Support Vector Machines')
 y_pred=support_vector_machines.classify(data, C=100)
 binary_evaluate(data['y_test'], y_pred)
+print('\n## Decision Trees')
+y_pred=decision_trees.classify(data)
+binary_evaluate(data['y_test'], y_pred)
+
