@@ -22,7 +22,8 @@ def merge_fips(fips, party):
 def render_map(
     filename,
     fips_codes, #dataframe of fips codes and their corresponding party [0-1]
-    open_image=False
+    open_image=False,
+    open_web=False
 ):
     # Plot Data
     fig=px.choropleth(
@@ -36,6 +37,8 @@ def render_map(
     fig.write_image(filepath+'.png') #export as PNG into predicted folder
     if open_image:
         os.system(f'open {filepath}.png')
+    if open_web:
+        fig.show()
 
     # Write image text
     text='county_name\tfips\tparty\n'

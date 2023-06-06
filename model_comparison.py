@@ -1,8 +1,8 @@
 from load_data import load_split_data, continuous2binary
-from models.binary import baseline_majority_classifier, decision_trees, gaussian_naive_bayes, knn, logistic_regression, random_forest, support_vector_classifier
-from models.binary.evaluate import evaluate as binary_evaluate
 from models.continuous import baseline_mean_classifier, linear_regression, bernoulli_naive_bayes, support_vector_regression, neural_network
 from models.continuous.evaluate import evaluate as continuous_evaluate
+from models.binary import baseline_majority_classifier, decision_trees, gaussian_naive_bayes, knn, logistic_regression, random_forest, support_vector_classifier
+from models.binary.evaluate import evaluate as binary_evaluate
 
 
 print('# 2010-2012 Evaluation')
