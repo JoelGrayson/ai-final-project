@@ -28,7 +28,7 @@ def render_map(
     # Plot Data
     fig=px.choropleth(
         fips_codes, geojson=counties, locations='fips',
-        color='party', color_continuous_scale=['#ff0000', '#0000ff'], range_color=(0, 1),
+        color='party', color_continuous_scale=['#ff0000', '#B800DB', '#0000ff'], range_color=(0, 1),
         scope='usa', labels={'party': 'Party'}
     )
 
