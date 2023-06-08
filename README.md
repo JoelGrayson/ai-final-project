@@ -5,7 +5,7 @@ Elections inspected: 2008 and 2020
 Corresponding census data: 2010 and 2020 (ACS)
 
 [Proposal](https://docs.google.com/document/d/1E4FkeQ8UsCsFyLSj4cYP6SSVMuc98ruH8EV7Radr36I/edit?usp=sharing)
-[Journaling](https://docs.google.com/document/d/1ifoNFNRCW7-xLNjSwCLQEWpmMqnfMyJgVoNBKwyWsWg/edit)
+[Journal](https://docs.google.com/document/d/1ifoNFNRCW7-xLNjSwCLQEWpmMqnfMyJgVoNBKwyWsWg/edit)
 
 Continuous models = regression models = continuous float output
 Binary models = classification models = discrete boolean output
