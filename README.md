@@ -1,13 +1,13 @@
 # About
 This project aims to create an AI model that can predict whether or not a county will vote Democratic or Republican based on its census data. This program will spit out a map of the United States colored based on its predictions for how the counties will vote to be compared with the actual election results' map.
 
-Elections inspected: 2008 and 2020
+Elections inspected: 2008 and 2020\
 Corresponding census data: 2010 and 2020 (ACS)
 
-[Proposal](https://docs.google.com/document/d/1E4FkeQ8UsCsFyLSj4cYP6SSVMuc98ruH8EV7Radr36I/edit?usp=sharing)
+[Proposal](https://docs.google.com/document/d/1E4FkeQ8UsCsFyLSj4cYP6SSVMuc98ruH8EV7Radr36I/edit?usp=sharing)\
 [Journal](https://docs.google.com/document/d/1ifoNFNRCW7-xLNjSwCLQEWpmMqnfMyJgVoNBKwyWsWg/edit)
 
-Continuous models = regression models = continuous float output
+Continuous models = regression models = continuous float output\
 Binary models = classification models = discrete boolean output
 
 
@@ -51,7 +51,7 @@ https://data.census.gov/table?t=Business+and+Economy:Business+and+Owner+Characte
 
 # Requirements
 ## Running
-pip packages: kaleido pandas requests plotly
+pip packages: kaleido pandas requests plotly\
 Pro tip: pipe `python3 model_comparison.py` into glow for rendering markdown. Install glow [here](https://github.com/charmbracelet/glow#installation)
 
 ## Development
