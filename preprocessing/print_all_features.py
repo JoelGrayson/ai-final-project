@@ -1,10 +1,9 @@
 import pandas as pd
+from preprocessing.abbr2feature import abbr2feature
 
 df=pd.read_csv('preprocessing/dist/2020-acs-and-votes.csv')
-colnames=pd.read_csv('preprocessing/src/2020/ACS/column-metadata.csv')
 
 features=df.columns
-abbr2feature=colnames.set_index('Column Name', inplace=False)['Label'].to_dict() #index='Column Name')
 for feature in features:
     if feature in abbr2feature:
         # # All
